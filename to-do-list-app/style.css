@@ -1,0 +1,64 @@
+body {
+        background-color: #4086f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+}
+
+.container {
+        background-color: white;
+        width: 60%;
+        border-radius: 10px;
+}
+
+.container ul #lists {
+        margin-top: 190px;
+        margin-right: -90px;
+}
+
+li {
+        background-color: #90ee90;
+        width: 85%;
+        padding: 8px;
+        margin-bottom: 5px;
+        list-style: none;
+        color: black;
+        border-radius: 5px;
+        margin-left: 9px;
+}
+
+#task {
+        padding: 5px;
+        padding-right: 6.5%;
+        box-sizing: border-box;
+        border: none;
+        border: 1px solid #125bc9;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+
+button {
+        padding: 7px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+        border: none;
+        background-color: #125bc9;
+        color: white;
+}
+
+#del-btn {
+     margin-top: 5px;
+     margin-left: 9px;
+     margin-bottom: 10px;
+     background-color: red;
+}
+
+#error {
+        color: red;
+        margin-top: -10px;
+        margin-left: 10px;
+}
